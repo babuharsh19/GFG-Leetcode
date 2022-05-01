@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        unsigned int xor1=0;
+        long long int xor1=0;
             int k=0,n=nums.size(),x=0;
         if(n<=2) return nums;
         vector<int>res(2);
