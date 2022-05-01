@@ -9,7 +9,7 @@ public:
         {
             xor1=xor1^nums[i];
         }
-        xor1=xor1&~(xor1-1);//finding right most set bit of xor
+        xor1=xor1&-xor1;//finding right most set bit of xor
         for(int i=0;i<n;i++)
         {
             if(xor1&nums[i])
