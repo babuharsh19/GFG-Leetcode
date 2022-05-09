@@ -1,1 +1,1 @@
-this problem will be done using prefix multiplication method. by making left and right prefix arrays.
+​
