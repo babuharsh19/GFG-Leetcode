@@ -10,8 +10,6 @@ public:
         set<int>s(nums.begin(),nums.end());
         copy(s.begin(),s.end(),nums.begin());
         for(int i=0;i<s.size();i++){
-            int temp=1;
-            if(nums[i]<0)temp=-1;
             auto it = m.find(((nums[i])+k));
             if(k==0&&it!=m.end()&&(it->second)>=2){
                         count++;
