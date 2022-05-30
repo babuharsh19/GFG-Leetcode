@@ -4,7 +4,7 @@ public:
         vector<vector<int>>res;
         unordered_map<int,int>m;
         sort(nums.begin(),nums.end());
-        if(nums.size()<3)return res;
+        if(nums.size()<3||nums[0]>0)return res;
         for(int i=0;i<nums.size();i++){
             m[nums[i]]=i;
         }
