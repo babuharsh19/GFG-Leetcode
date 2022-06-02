@@ -12,7 +12,6 @@ public:
                 if((k==true)&&j==matrix[i].size()-1){
                     matrix[i]=vector<int>(matrix[i].size(),0);
                 }
-            // k=false;
             }
         }
         for(int i=0;i<matrix.size();i++){
